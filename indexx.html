@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ieshwaryaa A.E | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo-section">
+        <img src="C:\Users\ishwa\Downloads" alt="Ieshwaryaa A.E" class="profile-pic" />
+        <h1 class="logo">Ieshwaryaa A.E</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Ieshwaryaa</span></h2>
+      <p>Web Developer <span class="typing-text"></span></p>
+      <button class="btn" onclick="scrollToSection('projects')">View My Work</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about section">
+    <h2>About Me</h2>
+    <p>
+     Hello! I’m pursuing BSc Computer Science at SRM University, Ramapuram.  
+     I'm a passionate web developer with strong foundation in HTML, CSS, JavaScript. I enjoy building clean, efficient and responsive websites.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Responsive Landing Page</h3>
+        <p>Built with HTML, CSS, and JS featuring animations and interactivity.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Stopwatch Web App</h3>
+        <p>An interactive stopwatch with a clean UI using JavaScript.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact section">
+    <h2>Contact Me</h2>
+    <p>Let’s collaborate! Reach out below:</p>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Scroll to Top -->
+  <button id="scrollTopBtn">⬆</button>
+
+  <footer>
+    <p>© 2025 Ieshwaryaa A.E | Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
