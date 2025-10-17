@@ -13,7 +13,18 @@ body {
 }
 
 /* Header */
-header {
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between image and text */
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover; /* keeps aspect ratio */
+}
   background-color: #111;
   color: white;
   padding: 15px 0;
